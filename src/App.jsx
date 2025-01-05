@@ -3,7 +3,7 @@ import './App.css'
 import { db } from './firebase/firebase'
 import { collection, addDoc,getDocs } from "firebase/firestore";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import Chat from './Components/chat';
+import Chat from "./Components/Chat";
 
 function App() {
 
