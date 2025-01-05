@@ -121,6 +121,7 @@ border: none;
 display: inline-flex;
 align-items: end;
 height: 40px;
+margin-right: 8px;
 border-radius: 50%;
     
 }
