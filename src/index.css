@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.title{
+    position: sticky;
+    top: 0;
+    width: 90%;
+    background-color: white;
+    padding: 0.5%;
+    margin-left: 4vw;
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+form{
+    position: sticky;
+    height: 100vh;
+    bottom: 2px;
+    display: flex;
+}
+.input{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 5vw;
+    background-color: white;
+    width: 90%;
+    padding-bottom: 40px;
+    height: fit-content;
+}
+.box{
+    margin-left: 5vw;
+    border-left:1.7px solid #d24a60 ;
+    padding-left: 0.5%;
+    width: 80%;
+}
+.name{
+    margin-left: 5vw;
+    color: #d24a60;
+}
+.name1{
+    color: #4a5ad2;
+    margin-left: 5vw;
+}
+.box1-1{
+    margin-left: 5vw;
+    border-left:1.7px solid #4a5ad2 ;
+    padding-left: 0.5%;
+    width: 80%;
+}
+.ml{
+    
+    margin-top: 0.2%;
+}
+.box1{
+    width: fit-content;
+    margin-left: 0.2%;
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    border-radius: 3%;
+}
+button{
+    background: url('./assets/k.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color: #f2f2f2;
+    background-size: 27px 27px;
+    padding-left: 12px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 2vw;
+    
+}
+input[type="text"] {
+
+    width: 75vw;
+
+    background-color: #f2f2f2; 
+    border: 1px solid #f2f2f2; /* Adds a border */
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px; 
+    margin-right: 2vw;
+    padding-left: 15px;
+    border-radius: 100px;
+
+  }
+input[type="submit"]{
+    background: url('./assets/736212.png');
+background-position:center;
+background-repeat:no-repeat;
+background-color: #f2f2f2;
+background-size: 27px 27px;
+padding-left: 12px;
+width: 40px;
+border: none;
+margin-left: 2vw;
+cursor: pointer;
+height: 40px;
+border-radius: 50%;
+}
+.img{
+    background: url('https://i.pinimg.com/236x/df/0c/3b/df0c3ba01aaa7d163f701dd5ebc03d9f.jpg');
+background-position:center;
+background-repeat:no-repeat;
+background-size: 40px 40px;
+width: 40px;
+border: none;
+display: inline-flex;
+align-items: end;
+height: 40px;
+border-radius: 50%;
+    
+}
